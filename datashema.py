@@ -56,8 +56,8 @@ class PerformanceMetric(Base):
     # Spend & delivery
     spend = Column(Float, default=0)
     impressions = Column(Integer, default=0)
-    reach = Column(Integer, default=0)
-    frequency = Column(Float, default=0)
+    three_secVV = Column(Integer, default=0)
+    # frequency = Column(Float, default=0)
 
     # Engagement
     clicks = Column(Integer, default=0)
@@ -67,7 +67,7 @@ class PerformanceMetric(Base):
 
     # Conversions (ad events)
     add_to_cart = Column(Integer, default=0)
-    checkout = Column(Integer, default=0)
+    # checkout = Column(Integer, default=0)
     purchases = Column(Integer, default=0)
 
     # Shopify / revenue
